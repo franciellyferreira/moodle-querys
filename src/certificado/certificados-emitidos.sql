@@ -1,5 +1,5 @@
-## Query: certificados-emitidos.sql
-## Descrição: Consulta todos os certificados emitidos.
+-- Query: certificados-emitidos.sql
+-- Descrição: Consulta todos os certificados emitidos.
 
 SELECT 
     CONCAT(u.firstname, ' ', u.lastname) AS usuario_nome,

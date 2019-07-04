@@ -1,5 +1,5 @@
-## Query: certificado-por-aluno.sql
-## Descrição: Consulta todos os certificados emitidos pelo aluno.
+-- Query: certificado-por-aluno.sql
+-- Descrição: Consulta todos os certificados emitidos pelo aluno.
 
 SELECT 
     CONCAT(u.firstname, ' ', u.lastname) AS usuario_nome,

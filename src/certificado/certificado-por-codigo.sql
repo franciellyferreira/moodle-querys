@@ -1,5 +1,5 @@
-## Query: certificado-por-codigo.sql
-## Descrição: Consulta o certificado emitido pelo código gerado.
+-- Query: certificado-por-codigo.sql
+-- Descrição: Consulta o certificado emitido pelo código gerado.
 
 SELECT 
     CONCAT(u.firstname, ' ', u.lastname) AS usuario_nome,
