@@ -21,6 +21,6 @@ FROM
     mdl_user u ON (qa.userid = u.id)
 WHERE
     qa.state = 'finished'
-        AND u.username = '' -- inserir aqui o usuario (cpf/cnpj)
+        AND u.username = '' -- inserir aqui o usuario
 GROUP BY curso_nome , curso_categoria , avaliacao_nome , avaliacao_valor , avaliacao_data
 ORDER BY curso_nome , curso_categoria;
